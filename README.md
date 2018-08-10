@@ -1,0 +1,2 @@
+# nanda
+new strtup
