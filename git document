@@ -1,0 +1,169 @@
+Open the terminal in the project folder
+
+(AIT+CTRL+T) for open terminal 
+
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get update
+sudo apt-get install build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext unzip
+
+
+(install git)
+
+
+
+
+git --version 
+
+CONFIGURE TOOLING
+--------------------------
+
+
+1.  git config --global user.name "[name]"
+
+2.  git config --global user.email "[email address]"
+
+3.  git config --global color.ui auto
+-----------------------------------------------------------------------------------
+check your information
+
+=> git config --global --list
+
+
+Delete all changes in the Git repository, but leave unstaged things 
+
+=> git checkout .
+
+Delete all changes in the Git repository, including untracked files
+=> git clean -f
+
+=======================================================================================================================================
+for new project 
+
+mkdir (project name)
+cd (project name)
+
+=> git init
+
+=> touch README.md
+
+=> nano README.md(some commands & shortcuts)
+=> git status
+=> git add README
+=> git commit -m "first commit"
+=> git log
+=> git remote add orgin ( project url )
+
+=> git remote -v
+
+=> git push -u orgin master
+=> e-mail
+=> password
+
+----------------------------------------------------------------------------------------------
+for total folder upload
+
+=> git add .
+
+=> git commit -m "456"
+
+=> git log 
+=> git remote add orgin gitlab project url
+=> git remote -v
+=> git push -u orgin master
+.....................................................................................................................................................
+1. git init
+
+2. git add remote (project link)
+
+4. git add (file name which file we want to insert)
+
+5. git commit -m "any name we insert here"
+
+6. git push
+
+7. git push -u orgin master
+
+
+
+CREATE REPOSITORIES
+------------------------------
+
+Start a new repository or obtain one from an existing URL
+
+1. git init [project-name]
+
+Creates a new local repository with the specified name
+
+2.  git clone [url]
+Downloads a project and its entire version history
+
+
+
+MAKE CHANGES
+---------------------------
+Review edits and craft a commit transaction
+$ git status
+Lists all new or modified files to be committed+=0$ git diff
+Shows file differences not yet staged
+$ git add [file]
+Snapshots the file in preparation for versioning
+git diff --staged
+Shows file differences between staging and the last file version
+$ git reset [file]
+Unstages the file, but preserve its contents
+$ git commit -m "[descriptive message]"
+Records file snapshots permanently in version history
+
+
+-------------------------------------------------------------
+for remove project
+
+Open project
+Setting (In the left sidebar)
+General
+Advanced Setting (Click on Expand)
+Remove Project (Bottom of the Page)
+Confirm (By typing project name and press Confirm button
+
+
+
+
+
+GROUP CHANGES
+-------------------------
+Name a series of commits and combine completed efforts
+1. git branch
+Lists all local branches in the current repository
+2. git branch [branch-name]
+Creates a new branch
+3.git checkout [branch-name]
+Switches to the specified branch and updates the working directory
+4.git merge [branch]
+Combines the specified branch’s history into the current branch
+5.git branch -d [branch-name]
+Deletes the specified branch
+---------------------------------------------------------------------------------------------------------------------------------
+for new file  inserting
+
+=> git init
+
+=> touch README.md
+
+=> nano README.md(some commands & shortcuts)
+
+=> touch README.md
+=> nano README.md
+#### ADD YOUR INFORMATION
+#### Press: control + X
+#### Type: Y
+#### Press: enter
+
+
+
+
+
+
+####################################### raja ############################################
+
+
